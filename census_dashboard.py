@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-DATA_PATH_DEFAULT = "C:\\Users\\Vijay Patidar\\Documents\\varahe\\assignment_JJM\\census-2011\\india-districts-census-2011.csv"
+DATA_PATH_DEFAULT = "india-districts-census-2011.csv"
 
 
 def _pretty(col: str) -> str:
